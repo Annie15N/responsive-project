@@ -4,7 +4,7 @@
 :root {
   --branding-color: #a594f9;
   --secondary-color: #ffb38e;
-  --header-font-family: "Playfair Display", sans-serif;
+  --header-font-family: "Playfair Display", serif;
   --para-font-family: "Poppins", serif;
 }
 
@@ -22,6 +22,8 @@ h3 {
 
 p {
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .hero {
@@ -50,6 +52,19 @@ p {
 
 .btn-branding {
   background: var(--branding-color) !important;
+  border-radius: 10px !important;
+  font-size: 18px !important;
+  line-height: 27px !important;
+  padding: 15px 30px !important;
+}
+
+.project-wrapper h2 {
+  font-size: 64px;
+}
+
+.btn-project {
+  color: var(--branding-color) !important;
+  border: 1px solid var(--secondary-color);
   border-radius: 10px !important;
   font-size: 18px !important;
   line-height: 27px !important;
