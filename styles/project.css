@@ -48,11 +48,10 @@ p {
   margin: 0;
 }
 
-.branding {
-  background: var(--branding-color);
-  border-radius: 10px;
-  border: 1px solid #ffb38e;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
+.btn-branding {
+  background: var(--branding-color) !important;
+  border-radius: 10px !important;
+  font-size: 18px !important;
+  line-height: 27px !important;
+  padding: 15px 30px !important;
 }
