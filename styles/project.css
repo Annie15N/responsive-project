@@ -22,7 +22,7 @@ h3 {
 
 p {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
 }
 
@@ -48,28 +48,39 @@ img {
   color: #604d4d;
 }
 
-.about-hero h1 {
-  font-size: 64px;
-  line-height: 80px;
-}
-
-.about-hero h2 {
-  font-size: 24px;
-  font-family: var(--para-font-family);
-}
-
-.about-hero {
-  padding: 160px 20px;
-}
-
-.about-hero-content {
-  margin: 40px;
-}
-
 .hero p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
+}
+
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content h2 {
+  font-size: 24px;
+  font-family: var(--para-font-family);
+}
+
+.content h3 {
+  font-size: 24px;
+  font-family: var(--para-font-family);
+  font-weight: 700;
+  margin: 20px 0 0;
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content-container {
+  padding: 160px 20px;
+}
+
+.content {
+  margin: 40px;
 }
 
 .btn-branding {
@@ -109,7 +120,7 @@ img {
   h2 {
     font-size: 36px;
   }
-  .about-hero {
+  .content-container {
     text-align: center;
     padding: 0;
   }
