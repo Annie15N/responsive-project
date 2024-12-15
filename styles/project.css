@@ -48,6 +48,24 @@ img {
   color: #604d4d;
 }
 
+.about-hero h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-hero h2 {
+  font-size: 24px;
+  font-family: var(--para-font-family);
+}
+
+.about-hero {
+  padding: 160px 20px;
+}
+
+.about-hero-content {
+  margin: 40px;
+}
+
 .hero p {
   font-size: 36px;
   font-weight: bold;
@@ -90,5 +108,9 @@ img {
   }
   h2 {
     font-size: 36px;
+  }
+  .about-hero {
+    text-align: center;
+    padding: 0;
   }
 }
