@@ -30,6 +30,36 @@ img {
   border-radius: 8px;
 }
 
+.nav-wrapper {
+  margin-right: 20px;
+}
+nav {
+  padding: 20px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--branding-color);
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover,
+a.active {
+  color: var(--secondary-color);
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 30px;
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -123,5 +153,8 @@ img {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+  nav a {
+    font-size: 14px;
   }
 }
